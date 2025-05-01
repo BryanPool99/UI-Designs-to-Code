@@ -2,23 +2,7 @@
 
 Este repositorio transforma diseños en código con **frameworks modernos** como Angular, React, Astro y otros. Aquí encontrarás implementaciones frontend basadas en diseños de Figma, Dribbble y otras plataformas, organizadas para mejorar habilidades y optimizar flujos de desarrollo.  
 
-## 📂 Estructura  
-📂 UI-Designs-To-Code
-├── 📂 Figma
-│    ├── 📂 LandingPages
-│    ├── 📂 E-commerce
-│    ├── 📂 Dashboards
-│    ├── 📂 Portafolios
-│    ├── 📂 RedesSociales
-│    ├── 📂 PlataformasEducativas
-│    ├── 📂 Finanzas
-│    ├── 📂 PWA
-│    ├── 📂 Streaming
-│    ├── 📂 Otros
-├── 📂 Dribbble
-├── 📂 FreebiesUI
-
-
+## 📂 Estructura 
 Cada carpeta incluye:  
 - **🎨 Diseño** – Archivo de referencia.  
 - **📝 Documentación** – Explicación y mejoras.  
