@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule, TranslateModule],
+  imports: [RouterOutlet,CommonModule, TranslateModule,RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

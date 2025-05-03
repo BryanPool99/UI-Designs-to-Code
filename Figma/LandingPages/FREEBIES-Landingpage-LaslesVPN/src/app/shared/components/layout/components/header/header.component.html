@@ -1,0 +1,22 @@
+<header class="card">
+    <p-menubar [model]="menuItems">
+        <ng-template pTemplate="start">
+            <figure>
+               <a class="p-menuitem-link" [routerLink]="['home']">
+                <img src="../../../../../../assets/images/Logo.png" alt="Logo">
+               </a>
+            </figure>
+        </ng-template>
+        <ng-template pTemplate="item" let-item let-root="root">
+            <a [routerLink]="item.path" pRipple class="flex align-items-center p-menuitem-link">
+                <span class="ml-2">{{ item.title | capitalize }}</span>
+            </a>
+        </ng-template>
+        <ng-template pTemplate="end">
+            <div class="">
+                <p-button label="Sign In" [text]="true" [plain]="true" />
+                <p-button label="Sign Up" [text]="true" [plain]="true" />
+            </div>
+        </ng-template>
+    </p-menubar>
+</header>
