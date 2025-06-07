@@ -1,1 +1,26 @@
-<p>footer works!</p>
+<footer class="flex flex-row flex-wrap justify-between">
+    <figure class="w-1/4">
+        <img src="../../../../../../assets/images/Logo.png" alt="Logo">
+        <figcaption>
+            <div>
+                <p>
+                    <span class="font-bold">LaslesVPN</span> is a private virtual network that has unique features and has high security.
+                </p>
+            </div>
+            <ul class="flex flex-row p-0">
+                @for (item of socialMedias; track $index) {
+                    <app-social-media class="w-9 h-9 flex flex-row items-center justify-center mx-1 bg-white rounded-full shadow"
+                        [socialMedia]="{icon: item.icon, url: item.url}"/>
+                }
+            </ul>
+            <div>
+                <p>©2020LaslesVPN</p>
+            </div>
+        </figcaption>
+    </figure>
+    <div class="flex flex-row flex-wrap gap-20">
+        <app-links-section [title]="'Product'" [links]="productLinks"/>
+        <app-links-section [title]="'Engage'" [links]="engageLinks"/>
+        <app-links-section [title]="'Earn Money'" [links]="earnMoneyLinks"/>
+    </div>
+</footer>

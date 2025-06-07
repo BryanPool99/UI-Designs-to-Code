@@ -1,0 +1,10 @@
+<div class="flex flex-col gap-2">
+    <h3 class="font-bold m-0 p-0">{{title}}</h3>
+    <ul class="p-0 m-0 list-none">
+        @for (link of links; track $index) {
+            <li class="my-5">
+                <a class="no-underline text-text-secondary" href="{{link.url}}">{{link.label}}</a>
+            </li>
+        }
+    </ul>
+</div>
