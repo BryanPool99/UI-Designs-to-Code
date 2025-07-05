@@ -1,0 +1,13 @@
+.container-icon-description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .container-description {
+    h3 {
+      color: #0b132a;
+    }
+    p {
+      color: #4F5665;
+    }
+  }
+}

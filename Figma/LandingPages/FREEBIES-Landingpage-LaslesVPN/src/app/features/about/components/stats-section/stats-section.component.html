@@ -1,0 +1,10 @@
+<aside class="flex flex-wrap justify-evenly bg-white rounded-xl p-8 shadow-2xs">
+  <app-icon-description
+    *ngFor="let icono of dataStatsSection"
+    [iconSrc]="icono.src"
+    [iconAlt]="icono.alt"
+    [value]="icono.value"
+    [description]="icono.description"
+    [showDivider]="icono.showDivider"
+  />
+</aside>
